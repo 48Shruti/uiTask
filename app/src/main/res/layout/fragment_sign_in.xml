@@ -5,10 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/purple_image"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -100,14 +96,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/size_20sp"
-        android:text="@string/signUp"
+        android:text="@string/signIn"
         android:backgroundTint="#271842"
         android:layout_marginLeft="@dimen/size_40sp"
         android:layout_marginRight="@dimen/size_40sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/orSignUp"
+        android:text="@string/orSignIn"
         android:textSize="@dimen/size_15sp"
         android:textColor="#271842"
         android:padding="@dimen/size_5dp"
