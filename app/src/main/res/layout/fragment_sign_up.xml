@@ -115,7 +115,7 @@
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:rowCount="1"
-        android:layout_marginStart="@dimen/size_40sp"
+        android:layout_gravity="center"
         android:columnCount="3"
         android:layout_marginTop="@dimen/size_40sp"
         android:paddingStart ="@dimen/size_20sp">
@@ -126,6 +126,7 @@
             app:cardCornerRadius="@dimen/size_40sp"
             android:layout_row="0"
             android:layout_column="1"
+            android:layout_gravity="center"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1">
             <LinearLayout
@@ -153,6 +154,7 @@
             android:elevation="@dimen/size_10dp"
             app:cardCornerRadius="@dimen/size_40sp"
             android:layout_row="0"
+            android:layout_gravity="center"
             android:layout_column="2"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1">
